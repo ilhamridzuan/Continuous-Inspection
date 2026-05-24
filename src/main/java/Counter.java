@@ -48,5 +48,12 @@ public class Counter {
 	public int getCount() {
 		return count;
 	}
+
+	public void unusedMethodSimulation() {
+		int dummyVariable = 100;
+		if(dummyVariable == 100) {
+			System.out.println("Ini tidak perlu");
+		}
+	}
 	
 }
